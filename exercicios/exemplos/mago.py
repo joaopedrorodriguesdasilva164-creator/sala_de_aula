@@ -1,4 +1,4 @@
-class mago:
+class Mago:
 
     pontos_de_vida:int
     pontos_de_magia:int

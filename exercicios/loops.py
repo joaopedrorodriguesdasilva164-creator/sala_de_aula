@@ -24,3 +24,25 @@ def contar_negativos(numeros):
             contador+=1
             return contador 
         print (contar_negativos) [10,-3,0,-5,8,-1]
+
+#exercicio 3
+def somar_maiores_que(numeros,limite):
+    soma=0
+
+    for numero in numeros:
+        if numero > limite:
+            soma+=numero
+
+#exercicio 4
+def zerar_negativos(numeros):
+    nova_lista=[]
+
+    for numero in numeros:
+        if numero <0:       
+            nova_lista.append(0)
+        else:
+            nova_lista.append(numero)
+    
+    return nova_lista
+
+    
