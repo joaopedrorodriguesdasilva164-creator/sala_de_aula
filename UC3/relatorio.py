@@ -37,7 +37,7 @@ def total_do_cliente(alugueis, cliente):
     total = 0.0
     for aluguel in alugueis:
         if aluguel.cliente == cliente:
-            total = aluguel.valor
+            total += aluguel.valor
     return total
 
 
