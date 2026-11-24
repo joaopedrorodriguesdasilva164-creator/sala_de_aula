@@ -37,7 +37,11 @@ Camada 3 — Testes
 •	Testar o relacionamento entre cliente, produto e encomenda.
 •	Testar a rejeição de quantidades superiores ao estoque.
 
-- quem:
+- quem:•Integrante responsável pela lógica e pelas classes.
+•	Integrante responsável pelo banco de dados.
+•	Integrante responsável pelos testes.
+•	Integrante responsável pela interface.
+
 - Oque: •	Classes e regras de negócio implementadas.
 •	Banco de dados estruturado.
 •	Operações CRUD funcionando.
